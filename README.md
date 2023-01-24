@@ -3,7 +3,6 @@
 Model was build and optimized on colab.research.google.com. To Make it deployable it was packed in subfiles and published on github.
 
 This project was developed as part of a challenge in the master program "Artificial Intelligence" @ Johannes Kepler University (JKU) Linz
-This
 
 **Rank 3 of 100 students**
 
