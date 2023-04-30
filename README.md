@@ -7,8 +7,8 @@ This project was developed as part of a challenge in the master program "Artific
 **Rank 3 of 100 students**
 
 # Description
-The aim of this challenge is to develop methods that can generate realistic molecules. To this end, machine learning techniques should be used that model the distribution of molecules and can generate new data.
+The aim of this challenge was to develop a model that can generate realistic molecules. The Molecules are represented as Simplified Molecular Input Line Entry Specification (SMILE) strings. It's a form of line notation for describing the structure of chemical species using ASCII strings. So you can handle the Molecules like text with certain constraints. To this end, a Long Short-Term Memory (LSTM) Network was trained to model the distribution of the molecules (SMILE strings) and generate new data.
 
-We provide a large set of human-designed molecules as training data set from which your method can learn. The main task is to achieve a low Frechet ChemNet Distance (FCD) while auxiliary metrics "novelty", "validity" and "uniqueness" should be kept high.
+A large set of human-designed molecules was provided as training data from which our model learned. The main task was to achieve a low Frechet ChemNet Distance (FCD) while auxiliary metrics "novelty", "validity" and "uniqueness" should be kept high.
 
 Metric: Frechet ChemNet Distance (FCD)
